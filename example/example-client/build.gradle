@@ -16,7 +16,7 @@ dependencies {
     implementation 'com.jacobmountain:graphql-java-client-spring-web:+'
 
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
-    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.3'
+    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.8'
     implementation 'org.java-websocket:Java-WebSocket:1.5.1'
 
     compileOnly 'org.projectlombok:lombok:1.18.18'

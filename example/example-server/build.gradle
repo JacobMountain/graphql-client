@@ -5,7 +5,7 @@ plugins {
 dependencies {
     implementation 'io.leangen.graphql:spqr:0.11.1'
     implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:11.0.0'
-    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.3'
+    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.8'
 
     compileOnly 'org.projectlombok:lombok:1.18.18'
     annotationProcessor 'org.projectlombok:lombok:1.18.18'
